@@ -64,13 +64,13 @@ Team Number: F9
 ## Screenshots
 
 Procedure A, step 1:
-![Put path to your image here ->](img/1.JPG)
-
-Procedure A, step 4:
 ![Put path to your image here ->](img/2.JPG)
 
-Procedure B, UART:
+Procedure A, step 4:
 ![Put path to your image here ->](img/3.JPG)
 
-Procedure B, SPI:
+Procedure B, UART:
 ![Put path to your image here ->](img/4.JPG)
+
+Procedure B, SPI:
+![Put path to your image here ->](img/1.JPG)
