@@ -59,7 +59,7 @@ Team Number: F9
 
 13. Why does I2C need external resistors to work?
 
-    
+    Because the lines are open drain.
 
 ## Screenshots
 
