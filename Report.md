@@ -1,8 +1,8 @@
-Name:
+Name: Tony Dong
 
-EID:
+EID: qd765
 
-Team Number:
+Team Number: F9
 
 ## Questions
 
