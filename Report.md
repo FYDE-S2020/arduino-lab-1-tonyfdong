@@ -8,55 +8,58 @@ Team Number: F9
 
 1. Why does your program need a setup and a loop?
 
-    your answer here
+    While the setup defines functions needed later, the loop runs over and over again to implement blinking and flashing.
 
 2. What is the downside to putting all your code in a loop?
 
-    your answer here
+    The initialization only needs to be run once, so putting it in the loop slows the program and takes unnecessary space.
 
 3. Why does your code need to be compiled?
 
-    your answer here
+    Because it has to be translated into assembly language for the board to read.
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
-    your answer here
+    The LED was flickering because the frequency was so low that human eyes can spot the change. The solution is to increase the frequency.
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
-    your answer here
+    Because by doing it a closed circuit is formed.
 
 6. What is the difference between synchronous and asynchronous communication?
 
-    your answer here
+    While synchronous communication uses clock, asynchronous communication does not.
 
 7. Profile of UART: Sent X bytes in Y time 
 
-    your answer here
+    6 bytes in 6.146 ms
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    your answer here
+    6 bytes in 0.159 ms
 
 9. Why is SPI so much faster than UART?
 
-    your answer here
+    Because while UART is an actual piece of hardware, SPI is a protocal.
 
 10. list one pro and one con of UART
 
-    your answer here
+    Pro: no clock is needed.
+    Con: size of data frame is only limited to 9 bits.
 
 11. list one pro and one con of SPI
 
-    your answer here
+    Pro: it is faster than I2C and UART
+    Con: there is no error check unlke UART
 
 12. list one pro and one con of I2C
 
-    your answer here
+    Pro: it supports multi-master and multi-slave communication
+    Con: it requires more space because it needs resistors
 
 13. Why does I2C need external resistors to work?
 
-    your answer here
+    
 
 ## Screenshots
 
